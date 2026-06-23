@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Fashion - Product Detail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/detail.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="menu.html" class="nav-btn" aria-label="Menu">
+            <svg width="20" height="14" viewBox="0 0 20 14" fill="none">
+                <line x1="0" y1="1" x2="20" y2="1" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="0" y1="7" x2="20" y2="7" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="0" y1="13" x2="20" y2="13" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+        </a>
+        <div class="logo">
+            <span class="logo-top">Open</span>
+            <span class="logo-bottom">Fashion</span>
+        </div>
+        <div class="header-right">
+            <a href="search.html" class="nav-btn" aria-label="Search">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <circle cx="7.5" cy="7.5" r="6" stroke="#333" stroke-width="1.5"/>
+                    <line x1="12.2" y1="12.2" x2="17" y2="17" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </a>
+            <a href="checkout.html" class="nav-btn" aria-label="Cart">
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                    <path d="M2 2H4L6 13H15L17 5H4.5" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="8" cy="16.5" r="1.2" fill="#333"/>
+                    <circle cx="14" cy="16.5" r="1.2" fill="#333"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <div class="product-img-wrap">
+        <img src="../src/img/detail.png" alt="Recycle Boucle Knit Cardigan Pink" class="product-img">
+        <button class="expand-btn" aria-label="Expand">
+            <svg width="16" height="16" viewBox="0 0 18 18" fill="none">
+                <path d="M11 2H16V7" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 2L10 8" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M7 16H2V11" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 16L8 10" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+        </button>
+    </div>
+
+    <div class="img-dots">
+        <span class="dot active">◆</span>
+        <span class="dot">◇</span>
+        <span class="dot">◇</span>
+        <span class="dot">◇</span>
+        <span class="dot">◇</span>
+    </div>
+
+    <section class="product-info">
+        <div class="product-top-row">
+            <p class="product-brand">MOHAN</p>
+            <button class="share-btn" aria-label="Share">
+                <svg width="18" height="20" viewBox="0 0 18 22" fill="none">
+                    <path d="M9 14V2M9 2L5 6M9 2L13 6" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 11V18C2 19.1 2.9 20 4 20H14C15.1 20 16 19.1 16 18V11" stroke="#333" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+        <h1 class="product-name">Recycle Boucle Knit Cardigan Pink</h1>
+        <p class="product-price">$120</p>
+
+        <div class="selectors-row">
+            <div class="color-selector">
+                <span class="selector-label">Color</span>
+                <div class="color-options">
+                    <button class="color-btn active" style="background:#222;"></button>
+                    <button class="color-btn" style="background:#c8895c;"></button>
+                    <button class="color-btn" style="background:#d8d0c8;"></button>
+                </div>
+            </div>
+            <div class="size-selector">
+                <span class="selector-label">Size</span>
+                <div class="size-options">
+                    <button class="size-btn active">S</button>
+                    <button class="size-btn">M</button>
+                    <button class="size-btn">L</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section class="materials-section">
+        <h2 class="detail-section-title">MATERIALS</h2>
+        <p class="detail-text">We work with monitoring programmes to ensure compliance with safety, health and quality standards for our products.</p>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section class="care-section">
+        <h2 class="detail-section-title">CARE</h2>
+        <p class="detail-text">To keep your jackets and coats clean, you only need to freshen them up and go over them with a cloth or a clothes brush. If you need to dry clean a garment, look for a dry cleaner that uses technologies that are respectful of the environment.</p>
+
+        <ul class="care-list">
+            <li class="care-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 3L21 20H3L12 3Z" stroke="#555" stroke-width="1.3" stroke-linejoin="round"/>
+                    <line x1="7" y1="8" x2="17" y2="18" stroke="#555" stroke-width="1.3" stroke-linecap="round"/>
+                </svg>
+                <span>Do not use bleach</span>
+            </li>
+            <li class="care-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <rect x="3" y="3" width="18" height="18" rx="2" stroke="#555" stroke-width="1.3"/>
+                    <line x1="7" y1="7" x2="17" y2="17" stroke="#555" stroke-width="1.3" stroke-linecap="round"/>
+                    <line x1="17" y1="7" x2="7" y2="17" stroke="#555" stroke-width="1.3" stroke-linecap="round"/>
+                </svg>
+                <span>Do not tumble dry</span>
+            </li>
+            <li class="care-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="9" stroke="#555" stroke-width="1.3"/>
+                    <path d="M7 12C8.5 9 15.5 9 17 12" stroke="#555" stroke-width="1.3" stroke-linecap="round"/>
+                </svg>
+                <span>Dry clean with tetrachloroethylene</span>
+            </li>
+            <li class="care-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M3 14H19L21 11H5C4 11 3 12 3 14Z" stroke="#555" stroke-width="1.3" stroke-linejoin="round"/>
+                    <path d="M3 14V17H21V14" stroke="#555" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="7" cy="12.5" r="0.8" fill="#555"/>
+                    <circle cx="10" cy="11.8" r="0.8" fill="#555"/>
+                </svg>
+                <span>Iron at a maximum of 110°C/230°F</span>
+            </li>
+        </ul>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section class="shipping-section">
+        <h2 class="detail-section-title">CARE</h2>
+
+        <div class="accordion-item open">
+            <button class="accordion-btn" onclick="toggleAccordion(this)">
+                <div class="accordion-left">
+                    <svg width="22" height="16" viewBox="0 0 26 18" fill="none">
+                        <rect x="1" y="1" width="16" height="12" rx="1" stroke="#555" stroke-width="1.3"/>
+                        <path d="M17 4H21L25 9V13H17V4Z" stroke="#555" stroke-width="1.3" stroke-linejoin="round"/>
+                        <circle cx="6" cy="15" r="2" stroke="#555" stroke-width="1.3"/>
+                        <circle cx="20" cy="15" r="2" stroke="#555" stroke-width="1.3"/>
+                    </svg>
+                    <span>Free Flat Rate Shipping</span>
+                </div>
+                <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none">
+                    <path d="M11 7L6 2L1 7" stroke="#555" stroke-width="1.3" stroke-linecap="round"/>
+                </svg>
+            </button>
+            <div class="accordion-content">
+                <p>Estimated to be delivered on<br>09/11/2021 - 12/11/2021.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-btn" onclick="toggleAccordion(this)">
+                <div class="accordion-left">
+                    <svg width="20" height="20" viewBox="0 0 22 22" fill="none">
+                        <path d="M3 6H19L17 16H5L3 6Z" stroke="#555" stroke-width="1.3" stroke-linejoin="round"/>
+                        <path d="M1 3H5L6 6" stroke="#555" stroke-width="1.3" stroke-linecap="round"/>
+                        <circle cx="8" cy="19" r="1.5" stroke="#555" stroke-width="1.3"/>
+                        <circle cx="15" cy="19" r="1.5" stroke="#555" stroke-width="1.3"/>
+                    </svg>
+                    <span>COD Policy</span>
+                </div>
+                <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none">
+                    <path d="M1 1L6 6L11 1" stroke="#555" stroke-width="1.3" stroke-linecap="round"/>
+                </svg>
+            </button>
+            <div class="accordion-content" style="display:none;">
+                <p>Cash on delivery available for eligible orders.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-btn" onclick="toggleAccordion(this)">
+                <div class="accordion-left">
+                    <svg width="20" height="20" viewBox="0 0 22 22" fill="none">
+                        <path d="M18 8C18 5.2 15.3 3 12 3C8.7 3 6 5.2 6 8C6 11 9 13 9 13H15C15 13 18 11 18 8Z" stroke="#555" stroke-width="1.3"/>
+                        <path d="M4 17C5.5 15 8 14 12 14C16 14 18.5 15 20 17" stroke="#555" stroke-width="1.3" stroke-linecap="round"/>
+                        <path d="M3 19C4 17.5 7.5 16 12 16C16.5 16 20 17.5 21 19" stroke="#555" stroke-width="1.3" stroke-linecap="round"/>
+                    </svg>
+                    <span>Return Policy</span>
+                </div>
+                <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none">
+                    <path d="M1 1L6 6L11 1" stroke="#555" stroke-width="1.3" stroke-linecap="round"/>
+                </svg>
+            </button>
+            <div class="accordion-content" style="display:none;">
+                <p>Free returns within 30 days of purchase.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" aria-label="Twitter">
+                <svg width="20" height="17" viewBox="0 0 24 20" fill="#333">
+                    <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"/>
+                </svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="#333">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+                <svg width="22" height="16" viewBox="0 0 24 17" fill="#333">
+                    <path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
+                </svg>
+            </a>
+        </div>
+        <div class="footer-divider">
+            <span class="line"></span>
+            <span class="diamond">◇</span>
+            <span class="line"></span>
+        </div>
+        <address class="contact-info">
+            <p>support@openui.design</p>
+            <p>+60 825 876</p>
+            <p>08:00 - 22:00 - Everyday</p>
+        </address>
+        <div class="footer-divider">
+            <span class="line"></span>
+            <span class="diamond">◇</span>
+            <span class="line"></span>
+        </div>
+        <nav class="footer-nav">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        <p class="copyright">Copyright&copy; OpenUI All Rights Reserved.</p>
+    </footer>
+
+    <div class="bottom-bar">
+        <button class="add-to-basket-btn">
+            <span class="plus-icon">+</span>
+            ADD TO BASKET
+        </button>
+        <button class="wishlist-btn" aria-label="Wishlist">
+            <svg width="22" height="20" viewBox="0 0 24 22" fill="none">
+                <path d="M12 20C12 20 2 13 2 7C2 4.2 4.2 2 7 2C9 2 10.9 3.1 12 4.8C13.1 3.1 15 2 17 2C19.8 2 22 4.2 22 7C22 13 12 20 12 20Z" stroke="#333" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+
+    <script>
+        function toggleAccordion(btn) {
+            const item = btn.closest('.accordion-item');
+            const content = item.querySelector('.accordion-content');
+            const chevron = btn.querySelector('.chevron');
+            const isOpen = item.classList.contains('open');
+
+            document.querySelectorAll('.accordion-item').forEach(i => {
+                i.classList.remove('open');
+                i.querySelector('.accordion-content').style.display = 'none';
+                i.querySelector('.chevron path').setAttribute('d', 'M1 1L6 6L11 1');
+            });
+
+            if (!isOpen) {
+                item.classList.add('open');
+                content.style.display = 'block';
+                chevron.querySelector('path').setAttribute('d', 'M11 7L6 2L1 7');
+            }
+        }
+
+        document.querySelectorAll('.color-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.color-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            });
+        });
+
+        document.querySelectorAll('.size-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
